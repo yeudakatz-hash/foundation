@@ -108,9 +108,9 @@ price = int(input("Enter total price: "))
 tip = int(input("Enter num of percent to tip: "))
 people = int(input("Enter nu of people: "))
 print(f"""
-total tip: {price / tip}
-total price {price + tip}
-total per person
+total tip: {(price * tip) / 100}
+total price {price + (price * tip) / 100}
+total per person: {(price + (price * tip) / 100)/ people}
 """)
 
 
