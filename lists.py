@@ -305,7 +305,10 @@ while choose != 0:
         count = 0
         for g in grades:
             count += g
-        print(count/ len(grades))
+        if count != 0:
+            print(count/ len(grades))
+        else:
+            continue
     if choose == 9:
         print(grades[:3])
     if choose == 10:
