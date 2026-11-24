@@ -169,8 +169,8 @@ products["consula"] = {"price": 1000 , "stock": 22}
 print(products)
 for product in products:
     if products[product]["price"] > 100:
-#         print(product)
-
+        # print(product)
+        pass
 
 #18
 employees = [("David", "Development", 15000),
