@@ -1,6 +1,6 @@
-from foundations.rummikub.tiles import *
-from foundations.rummikub.turn import *
-from foundations.rummikub.printer import *
+from tiles import *
+from turn import *
+from printer import *
 
 
 def game():
